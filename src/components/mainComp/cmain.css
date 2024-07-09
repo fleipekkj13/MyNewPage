@@ -1,0 +1,38 @@
+.main{
+    position: relative;
+    margin: 0 auto;
+    width: 65%;
+}
+.container-1 img{
+    position: fixed;
+    z-index: -1;
+    mix-blend-mode: darken;
+    border-radius: 100%;
+    -webkit-mask-image: radial-gradient(rgb(0, 0, 0), transparent, transparent);
+}
+
+.main .container-1{
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+
+}
+
+.things-what-i-do{
+    display: flex;
+    align-items: center;
+}
+.buttons-container-1{
+    display: flex;
+    gap: 2em;
+}
+
+.container-2{
+    box-sizing: border-box;
+    padding: 1em;
+}

@@ -1,0 +1,28 @@
+.header{
+    position: static;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+.header nav ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header nav ul h1{
+    margin: 0;
+    font-weight: bolder;
+}
+.header-types{
+    gap: 1em;
+}
